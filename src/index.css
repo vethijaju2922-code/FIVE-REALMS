@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  html,
+  body,
+  #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0a0c10;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+  }
+}
+
+.font-display {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+.font-mono-num {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.game-touch-area {
+  touch-action: none;
+  overscroll-behavior: none;
+}
+
+/* Custom sleek dark scrollbar for modal lists */
+.realm-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.realm-scroll::-webkit-scrollbar-track {
+  background: rgba(15, 18, 25, 0.6);
+}
+.realm-scroll::-webkit-scrollbar-thumb {
+  background: rgba(217, 167, 74, 0.35);
+  border-radius: 3px;
+}
+.realm-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(217, 167, 74, 0.6);
+}

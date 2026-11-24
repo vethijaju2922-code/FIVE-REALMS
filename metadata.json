@@ -1,0 +1,6 @@
+{
+  "name": "FIVE REALMS: THE LOST LEGACY",
+  "description": "FIVE WORLDS. FIVE FRAGMENTS. ONE LEGEND. A 3D fantasy adventure endless-runner across five ancient realms.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
